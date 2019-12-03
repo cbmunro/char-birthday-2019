@@ -19,7 +19,8 @@ export const Container = styled.div`
 `
 
 export const Main = styled.main`
-  position: relative;
+  display: flex;
+  align-items: center;
 `
 
 const Layout = ({ children }) => {

@@ -8,7 +8,6 @@ export const Code = styled.code`
   display: block;
   background: transparent;
   margin: 0 auto;
-  max-width: 300px;
   mix-blend-mode: color-burn;
 
   a {
