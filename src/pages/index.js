@@ -13,6 +13,10 @@ export const Code = styled.code`
   a {
     font-size: 32px;
     text-decoration: none;
+
+    &::before {
+      content: "🎁";
+    }
   }
 `
 
