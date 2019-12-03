@@ -1,20 +1,37 @@
 import React from "react"
-import { Link } from "gatsby"
+import styled from '@emotion/styled'
 
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+
+export const Code = styled.code`
+  background: white;
+
+  a {
+    font-size: 32px;
+    text-decoration: none;
+  }
+`
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Code>
+      <a target="_blank" href="https://ruggable.com/products/serenata-ash-grey?variant=12758312222775">🎁</a><br/>
+      ⊂_ヽ<br/>
+      　 ＼＼ <a target="_blank" href="https://ruggable.com/products/domo-sage-rug?variant=14115217965111">🎩</a><br/>
+      　　 ＼( ͡° ͜ʖ ͡°)<br/>
+      　　　 >　⌒ヽ<br/>
+      　　　/ 　 へ＼<br/>
+      　　 /　　/　＼＼<a target="_blank" href="https://ruggable.com/products/serenata-slate-blue?variant=12758403842103">🍰</a><br/>
+      　　 ﾚ　ノ　　 ヽ_つ<br/>
+      　　/　/<br/>
+      　 /　/|<br/>
+      　(　(ヽ<br/>
+      　|　|、&nbsp;ヽ<a target="_blank" href="https://ruggable.com/products/crosshatch-natural?variant=12758466920503">🎁</a><br/>
+      　| 丿 ＼ &nbsp;⌒)<br/>
+      　| |　　) /<br/>
+      &nbsp;ノ )　　Lﾉ<br/>
+      (_／#tada<br/>
+    </Code>
   </Layout>
 )
 
