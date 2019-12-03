@@ -19,8 +19,7 @@ export const Container = styled.div`
 `
 
 export const Main = styled.main`
-  margin: 0 auto;
-  max-width: 300px;
+  position: relative;
 `
 
 const Layout = ({ children }) => {
